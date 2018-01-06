@@ -1,0 +1,27 @@
+{
+  "development": {
+    "username": "root",
+    "password": "root", 
+    "database": "parrot_game",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
+
+/* If changes are needed in Heroku, change the env var in index.js to production and
+update this config file with correct db info.
+*/
